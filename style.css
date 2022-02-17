@@ -15,53 +15,46 @@ html, body{
                 height: 100%;
 }
 body{
-  background-image: linear-gradient(to right, #EB42FF, #A73CE8);
+  background-color: #fff64f;
 }
 
 #anuncio-pagina{
-                width: 40%;
-                height: 100%;
-                position: relative;
+  width: 50%;
+  height: 100%;     
 }
 .titulo-pagina{
-                position: relative;
-                top: 15%;
-                left: 10%;
-                font-family: 'Passion One', cursive;
-                font-size: 5em;
-                font-weight: normal;
-                color: #4A3CE8;
-                text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.5);
-                
+  position: relative;
+  left: 20%;
+  top: 15px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3em;
+  font-weight: normal;
+  color: #8C50FF;
 }
 .conjunto-paragrafo-pagina{
+                max-width: 550px;
                 position: relative;
-                top: 15%;
-                left: 10%;
-}
+                top: 10%;
+                left: 20%;
+} 
 .paragrafo-pagina{
                 font-family: 'Roboto Condensed', sans-serif;
-                font-size: 1.5em;
+                font-size: 1.7em;
 }
-
-.imagem-pagina{
-                position: absolute;
-                top: 5px;
-                left: 97%;
-                width: 45%;
-                transform: translate(-100%);
+.palavra-destaque{
+  font-family: 'Permanent Marker', cursive;
+  color: #5725b3;
 }
-
 .cadastro{
   position: relative;
-  width: 80%;
-  top: 20%;
-  left: 10%;
-  /* background-color: #8c50ff; */
+  max-width: 70%;
+  top: 15%;
+  left: 20%;
 }
 .rotulo-campos-cadastro{
   font-family: 'Roboto Condensed', sans-serif;
-  color: white;
+  color: black;
+  margin-left: 15px;
 }
 .campos-cadastro{
   display: block;
@@ -70,7 +63,7 @@ body{
   padding: 6px;
   border-style: none;
   border-radius: 20px;
-  background-color: #4266FF ;
+  background-color: #b3aa14;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.3em;
   color: white;
@@ -81,9 +74,31 @@ body{
   padding:10px;
   border-radius: 20px;
   border-style: none;
-  box-shadow: 2px 2px 5px #4266FF  ;
-  background-image: linear-gradient(to right, #8C50FF, #4266FF);
+  box-shadow: 2px 2px 5px #9d69ff  ;
+  background-image: linear-gradient(to right, #5725b3, #9d69ff);
   font-family:'Roboto Condensed', sans-serif;
   font-size: 1.2em;
-  color: white;
+  color: #fff64f;
 }
+
+.imagem-pagina{
+  position: absolute;
+  width: 45%;
+  top: 1.5%;
+  left: 54%;
+}
+#campocontatos{
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.contatosredessociais{
+  margin-right: 40px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+
+
